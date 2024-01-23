@@ -1,0 +1,102 @@
+*{
+    --site_color_1: #2e2e2e;
+    font-size: 62.5%;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+}
+
+
+body{
+    background-color: var(--site_color_1);
+    color: #abcdef;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+#header_main{
+    width: 100vw;
+    height: 3rem;
+    background-color: #1f1f1f;
+    color: #abcdef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 2.2rem;
+}
+
+#main_content{
+    width: 100vw;
+    height: 80vh;
+    margin-top: 3rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div_main_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    border-radius: 1rem;
+}
+
+#form{
+    padding: 2rem;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 2rem;
+}
+
+input{
+    background-color: #343434;
+    color: #abcdef;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+}
+/* 
+li{
+    list-style: disc;
+} */
+
+#result{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    color: #abcdef;
+    font-size: large;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#result li:first-child{
+    font-size: 2rem;
+}
+
+#result li:nth-child(2){
+    font-size: 4rem
+}
+
+#extraInfo{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#extraInfo li:first-child{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+#extraInfo li:nth-child(2){
+    font-size: 2rem;
+    line-height: 3rem;
+}
